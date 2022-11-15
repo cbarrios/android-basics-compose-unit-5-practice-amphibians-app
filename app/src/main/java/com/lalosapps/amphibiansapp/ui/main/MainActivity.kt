@@ -1,4 +1,4 @@
-package com.lalosapps.amphibiansapp
+package com.lalosapps.amphibiansapp.ui.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             AmphibiansAppTheme {
-
+                MyAmphibiansApp()
             }
         }
     }
