@@ -70,4 +70,7 @@ dependencies {
 
     // viewModel()
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.5.1'
+
+    // runTest
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.2"
 }
