@@ -54,7 +54,9 @@ fun ErrorScreen() {
 @Composable
 fun SuccessScreen(amphibians: List<Amphibian>) {
     LazyColumn(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier
+            .fillMaxSize()
+            .testTag("screenLazyColumn"),
         contentPadding = PaddingValues(8.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp)
     ) {
